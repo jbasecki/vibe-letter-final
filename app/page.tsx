@@ -4,13 +4,13 @@
 import React, { useState } from 'react';
 
 const alphabetMap: { [key: string]: string } = {
-    'A': '/A5.png', 'B': '/B5.png', 'C': '/C5.png', 'D': '/D5.png',
-    'E': '/E5.png', 'F': '/F5.png', 'G': '/G5.png', 'H': '/H5.png',
-    'I': '/I5.png', 'J': '/J5.png', 'K': '/K5.png', 'L': '/L5.png',
-    'M': '/M5.png', 'N': '/N5.png', 'O': '/O5.png', 'P': '/P5.png',
-    'Q': '/Q5.png', 'R': '/R5.png', 'S': '/S5.png', 'T': '/T5.png',
-    'U': '/U5.png', 'V': '/V5.png', 'W': '/W5.png', 'X': '/X5.png',
-    'Y': '/Y5.png', 'Z': '/Z5.png'
+    'A': 'A5.png', 'B': 'B5.png', 'C': 'C5.png', 'D': 'D5.png',
+    'E': 'E5.png', 'F': 'F5.png', 'G': 'G5.png', 'H': 'H5.png',
+    'I': 'I5.png', 'J': 'J5.png', 'K': 'K5.png', 'L': 'L5.png',
+    'M': 'M5.png', 'N': 'N5.png', 'O': 'O5.png', 'P': 'P5.png',
+    'Q': 'Q5.png', 'R': 'R5.png', 'S': 'S5.png', 'T': 'T5.png',
+    'U': 'U5.png', 'V': 'V5.png', 'W': 'W5.png', 'X': 'X5.png',
+    'Y': 'Y5.png', 'Z': 'Z5.png'
 };
 const UNIQUE_SCENES = [
     { id: 'scene-13', name: 'Love is All', url: 'https://storage.googleapis.com/simple-bucket-27/loveisall.mp4' },
