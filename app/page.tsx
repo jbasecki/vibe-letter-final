@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useState } from 'react';
@@ -17,6 +18,7 @@ const alphabetMap: { [key: string]: string } = {
     'W': 'https://storage.googleapis.com/simple-bucket-27/W.png', 'X': 'https://storage.googleapis.com/simple-bucket-27/X.png',
     'Y': 'https://storage.googleapis.com/simple-bucket-27/Y.png', 'Z': 'https://storage.googleapis.com/simple-bucket-27/Z.png'
 };
+
 const UNIQUE_SCENES = [
     { id: 'scene-13', name: 'Love is All', url: 'https://storage.googleapis.com/simple-bucket-27/loveisall.mp4' },
     { id: 'scene-03', name: 'Winter Daffodil', url: 'https://storage.googleapis.com/simple-bucket-27/winter-daffodil.mp4' },
