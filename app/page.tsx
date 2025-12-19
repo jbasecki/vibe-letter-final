@@ -1,16 +1,21 @@
-
 'use client';
 
 import React, { useState } from 'react';
 
 const alphabetMap: { [key: string]: string } = {
-    'A': 'A5.png', 'B': 'B5.png', 'C': 'C5.png', 'D': 'D5.png',
-    'E': 'E5.png', 'F': 'F5.png', 'G': 'G5.png', 'H': 'H5.png',
-    'I': 'I5.png', 'J': 'J5.png', 'K': 'K5.png', 'L': 'L5.png',
-    'M': 'M5.png', 'N': 'N5.png', 'O': 'O5.png', 'P': 'P5.png',
-    'Q': 'Q5.png', 'R': 'R5.png', 'S': 'S5.png', 'T': 'T5.png',
-    'U': 'U5.png', 'V': 'V5.png', 'W': 'W5.png', 'X': 'X5.png',
-    'Y': 'Y5.png', 'Z': 'Z5.png'
+    'A': 'https://storage.googleapis.com/simple-bucket-27/A.png', 'B': 'https://storage.googleapis.com/simple-bucket-27/B.png',
+    'C': 'https://storage.googleapis.com/simple-bucket-27/C.png', 'D': 'https://storage.googleapis.com/simple-bucket-27/D.png',
+    'E': 'https://storage.googleapis.com/simple-bucket-27/E.png', 'F': 'https://storage.googleapis.com/simple-bucket-27/F.png',
+    'G': 'https://storage.googleapis.com/simple-bucket-27/G.png', 'H': 'https://storage.googleapis.com/simple-bucket-27/H.png',
+    'I': 'https://storage.googleapis.com/simple-bucket-27/I.png', 'J': 'https://storage.googleapis.com/simple-bucket-27/J.png',
+    'K': 'https://storage.googleapis.com/simple-bucket-27/K.png', 'L': 'https://storage.googleapis.com/simple-bucket-27/L.png',
+    'M': 'https://storage.googleapis.com/simple-bucket-27/M.png', 'N': 'https://storage.googleapis.com/simple-bucket-27/N.png',
+    'O': 'https://storage.googleapis.com/simple-bucket-27/O.png', 'P': 'https://storage.googleapis.com/simple-bucket-27/P.png',
+    'Q': 'https://storage.googleapis.com/simple-bucket-27/Q.png', 'R': 'https://storage.googleapis.com/simple-bucket-27/R.png',
+    'S': 'https://storage.googleapis.com/simple-bucket-27/S.png', 'T': 'https://storage.googleapis.com/simple-bucket-27/T.png',
+    'U': 'https://storage.googleapis.com/simple-bucket-27/U.png', 'V': 'https://storage.googleapis.com/simple-bucket-27/V.png',
+    'W': 'https://storage.googleapis.com/simple-bucket-27/W.png', 'X': 'https://storage.googleapis.com/simple-bucket-27/X.png',
+    'Y': 'https://storage.googleapis.com/simple-bucket-27/Y.png', 'Z': 'https://storage.googleapis.com/simple-bucket-27/Z.png'
 };
 const UNIQUE_SCENES = [
     { id: 'scene-13', name: 'Love is All', url: 'https://storage.googleapis.com/simple-bucket-27/loveisall.mp4' },
